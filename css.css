@@ -1,0 +1,464 @@
+body{
+	margin: 0px;
+	font-family: 'Poppins', sans-serif;
+}
+.logo{
+ width: 40px; 
+}
+.dropdown-wrapper{
+    display: inline-block;
+    position: relative;
+}
+.menu-item{
+	color: black;
+	font-weight: 600;
+	font-size: 14px;
+	margin-right: 24px;
+	cursor: pointer;
+}
+.menu-item i {
+    padding-left: 4px;
+}
+.dropdown{
+	width: 150px;
+	border-top: 2px solid rgb(170, 210, 54);
+	padding: 20px;
+	position: absolute;
+	right: 24px;
+	background-color: white;
+	box-shadow:0 2px 5px #ccc;
+	display: none;
+}
+.dropdown a{
+  text-decoration: none;
+  display: block;
+  border-bottom: 1px solid #ccc;
+  padding: 4px;
+  cursor: pointer;
+}
+.dropdown a:last-of-type{
+  border: 0;
+}
+.dropdown-wrapper:hover .dropdown{
+display: block;
+}
+.primary-button {
+    font-size: 12px;
+    font-weight: 600;
+    color: white;
+    background-color: rgb(170, 210, 54);
+    padding: 9px 34px;
+    text-transform: uppercase;
+    border: 0;
+    border-radius: 4px;
+    margin-right: 16px;
+    cursor: pointer;
+}
+nav {
+    background-color: white;
+    width: 100%;
+    height: 77px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 28px;
+    box-sizing: border-box;
+    position: fixed;
+}
+header{
+    width: 100%;
+    height: 100vh;
+    background-image: url(https://edyoda.s3.ap-south-1.amazonaws.com/public/landing-background.png);
+    background-position: left;
+    background-size: cover;
+}
+#section1{
+  width: 100%;
+  height: 100vh;
+}
+#main_1{
+	width: 100%;
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-content:center; 
+}
+#main_1 h1{
+	width: 100%;
+    max-width: 1100px;
+    font-size: 44px;
+    font-weight: 600;
+    letter-spacing: 8.8px;
+    line-height: 1.2;
+    text-align: center;
+    margin: 0;
+    margin-left: auto;
+    margin-right: auto;
+}
+#main_1 p{
+	width: 100%;
+    max-width: 1100px;
+    font-size: 14px;
+    letter-spacing: 0.5px;
+    font-weight: 400;
+    color: #8b8b99;
+    text-align: center;
+    padding-top: 32px;
+     margin-left: auto;
+    margin-right: auto;
+}
+#section2{
+   width: 100%;
+   display: flex;
+   flex-direction: row;
+   justify-content: stretch;
+}
+#step1{
+background-color: #5acda6;
+}
+#step2{
+background-color:#91ac41;
+}
+#step3{
+background-color:#e4b476;
+}
+#step4{
+background-color:#f69dad;
+}
+.step_item{
+     width: 25%;
+    padding: 112px 48px;
+    text-align: center;
+    color: white;
+    box-sizing: border-box;
+}
+.step_item i {
+    font-size: 96px;
+    transition: all 0.3s;
+}
+.step_item h3{
+  font-weight: 600;
+  font-size: 24px;
+}
+.step_item p {
+    font-size: 14px;
+    letter-spacing: 0.5px;
+    line-height: 1.6;
+    margin-top: 0;
+}
+.step_item:hover i{
+	transform: scale(1.1);
+}
+#section3{
+	width: 100%;
+    background-color: #f7eee2;
+    padding-top: 75px;
+    padding-bottom: 75px;
+    text-align: center;
+}
+#fresh-food-heading {
+    color: #91ac41;
+    font-size: 24px;
+    font-family: 'Caveat', cursive;
+    margin: 0;
+    margin-top: 35px;
+}
+#section3 >h3 {
+    font-size: 44px;
+    font-weight: 600;
+    margin: 0;
+    margin-bottom: 8px;
+}
+#store-desc {
+    font-size: 16px;
+    font-weight: 500;
+    margin: 0;
+    color: #8b8b99;
+    letter-spacing: 0.5px;
+    margin-bottom: 55px;
+}
+#store-items-wrapper {
+    width: 100%;
+    max-width: 1140px;
+    display: flex;
+    justify-content: stretch;
+    margin: 0 auto;
+}
+.store-item {
+    width: 25%;
+    text-align: center;
+    padding: 24px;
+}
+.icon-wrapper {
+    display: inline-block;
+    background-color: #e3b375;
+    border-radius: 50%;
+    padding: 40px;
+    color: white;
+    transition: all 0.3s;
+}
+.icon-wrapper i {
+    font-size: 60px;
+}
+.store-item h3 {
+    font-size: 24px;
+    font-weight: 600;
+}
+.store-item p {
+    font-size: 16px;
+    letter-spacing: 0.5px;
+    font-weight: 500;
+    color: #8b8b99;
+}
+.store-item:hover .icon-wrapper{
+	transform: scale(1.1);
+}
+#fresh_food{
+	color: #91ac41;
+	font-size: 24px;
+    font-family: 'Caveat', cursive;
+    margin: 0;
+    margin-top: 35px;
+}
+#section4{
+     width: 100%;
+     padding-top: 75px;
+     padding-bottom: 75px;
+     text-align: center;
+}
+#section4>h3{
+    font-size:44px;
+    font-weight: 600;
+    margin-top: 0;
+    margin-bottom: 8px;
+}
+#food_description{
+	max-width: 700px;
+   font-size:16px;
+   font-weight:500;
+   color:#8b8b99;
+   letter-spacing: 0.5px;
+   margin:0 auto;
+   margin-bottom:55px;  
+}
+.food_image{
+	width:25%;
+	text-align:center;
+	background-color:#f5f6fb;
+	padding: 40px 30px;
+	margin:16px;
+	border-top-left-radius: 45px;
+	border-bottom-left-radius: 45px;
+	border-bottom-right-radius: 45px;
+	transition:box-shadow 0.3s;
+}
+#food_expert{
+	width:100%;
+	max-width:1140px;
+	margin:0 auto;
+	display:flex;
+	align-items:center;
+}
+.food_image img{
+	border-radius:50%;
+	width:80px;
+	margin-bottom:25px; 
+}
+.food_message{
+    font-size:14px;
+    letter-spacing:0.5px;
+    font-style:italic;
+    color:#8b8b99;
+    margin: 0;
+}
+.food_name{
+	text-transform: uppercase;
+	font-size:16px;
+	font-weight: 600;
+	margin-top: 24px;
+	margin-bottom:0px;
+}
+.food_job{
+	color: #8b8b99;
+    font-size: 12px;
+    font-style: italic;
+    letter-spacing: 0.5px;
+    margin: 0;
+}
+#section5{
+	display: flex;
+	justify-content: stretch;
+}
+#left_section{
+	width:67%;
+	display:inline-block;
+	margin:0;
+} 
+#left_section img{
+	width: 100%;
+}
+#right_section{
+	width: 33.33%;
+    margin: 0;
+    display: inline-block;
+    background-image: url(https://edyoda.s3.ap-south-1.amazonaws.com/public/strawberry-white.png);
+    background-position: left;
+    background-size: cover;
+}
+#right_section #right_discription{
+	margin: 115px;
+}
+#right_section #right_discription h3{
+	font-size: 44px;
+	font-weight: 600;
+	margin: 0 0 8px;
+}
+#right_section #right_discription p{
+	color: #8b8b99;
+    font-size: 16px;
+    line-height: 1.6;
+    margin: 0;
+}
+#subscribe_email{
+	width: 100%;
+    box-sizing: border-box;
+    border: 0;
+    border-radius: 4px;
+    font-weight: 500;
+    background-color: white;
+    padding: 12px;
+    color: #8b8b99;
+    font-size: 16px;
+    margin-top: 60px;
+    display: block;
+}
+#subscribe_btn {
+    background-color: #f69dad;
+    padding: 16px 42px;
+    border-radius: 4px;
+    cursor: pointer;
+    color: white;
+    border: 0;
+    font-size: 14px;
+    font-weight: 600;
+    text-transform: uppercase;
+    margin-top: 16px;
+}
+#section6{
+	width: 100%;
+	background-color: #f6fcfa;
+}
+#stats{
+	width: 100%;
+	max-width: 1140px;
+	padding: 100px 0;
+	margin: 0 auto;
+	text-align: center;
+	display: flex;
+	justify-content: stretch;
+}
+.stats_item{
+	width: 25%;
+	padding: 0 64px;
+}
+.stats_item h3{
+	font-size: 44px;
+	font-weight: 600;
+	margin: 0;
+}
+.stats_item p{
+	color: #57e3b5;
+	font-size: 14px;
+	letter-spacing: 0.5px;
+	font-style: italic;
+	margin: 0;
+}
+#section7>div{
+	width: 100%;
+	max-width: 1140px;
+	margin: 0 auto;
+	text-align: center;
+}
+#section7 h3{
+	color: #8b8b99;
+	font-size: 44px;
+	font-weight: 400;
+}
+#line_separator{
+	width: 96px;
+	display: inline-block;
+	height: 1px;
+	background-color: #e4b476;
+	margin-bottom: 36px;
+}
+#section7 iframe{
+	width: 100%;
+	height: 425px;
+}
+#address{
+	width: 100%;
+	max-width: 1140px;
+	margin: 0 auto;
+	display: flex;
+	justify-content: space-between;
+	padding: 100px 0;
+}
+#address>div{
+	width: 50%;
+}
+.gree_heading{
+	color: #91ac41;
+    font-size: 24px;
+    font-family: 'Caveat', cursive;
+    margin: 0;
+    margin-top: 35px;
+}
+.section_heading{
+	font-size: 44px;
+	margin: 0;
+}
+.section_description{
+	font-size: 16px;
+	font-weight: 400;
+	color: #8b8b99;
+	letter-spacing: 0.5px;
+}
+.address_heading{
+	font-size: 24px;
+	font-weight: 600;
+	margin: 0;
+	margin-top: 32px;
+}
+.address_lines{
+	font-size: 16px;
+	font-weight: 400;
+	color: #8b8b99;
+	letter-spacing: 0.5px;
+	line-height: 2;
+	margin: 0;
+}
+#address>div:last-of-type{
+	width: 40%;
+}
+.input_box{
+	width: 100%;
+    padding: 16px;
+    font-size: 16px;
+    color: #8b8b99;
+    border-radius: 6px;
+    border: 1px solid #e5e6ec;
+    margin-bottom: 16px;
+    box-sizing: border-box;
+}
+#btn_submit{
+	font-size: 16px;
+}
+footer{
+	background-color: #232323;
+	color: white;
+	font-size: 14px;
+	letter-spacing: 0.5px;
+	text-align: center;
+	padding: 30px 0px;
+}
