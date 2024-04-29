@@ -1,66 +1,49 @@
 <html>
-<head>
-<title>About</title>
- <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<style>
-.heading{
-font-size:35px;
-padding:18px;
-font-weight:250;
-}
-body{
-margin:0;
- background-color:black;
-}
-a
-{
- text-decoration:none!important; 
- color:white;
-}
-.head-bar{
-overflow: hidden;
-position: fixed;
-width: 100%;
-top:0;
-}
-a:hover{
-color:grey;
-}
-</style>
-</head>
-<body>
-<div class="head-bar" style="height:35px;text-align:center;background-color:black;padding-top:25px;padding-bottom:25px;">
-<span class="heading"><a href="./index.html">Home</a></span>
-<span class="heading"><a href="./detail.html">About</a></span>
-<span class="heading"><a href="./info.html">Contact</a></span>
-</div>
-<h1 style="text-align:center"><b>About DC</b></h1>
-<p style="text-align:center;font-size:18px;color:white;margin-top:100px;line-height:2;">
-DC Comics, Inc. is an American comic book publisher. It is the publishing unit of DC Entertainment,a subsidiary of the Warner    
-Bros. Global Brands and Experiences division of Warner Bros., a subsidiary of AT&T's WarnerMedia. DC Comics is one of the largest 
-and oldest American comic book companies. The majority of its publications take place within the fictional DC Universe and feature 
-numerous culturally iconic heroic characters, most notably Batman, Superman, Wonder Woman, and The Flash. The universe also 
-features well-known supervillains who oppose the superheroes such as the Joker and Lex Luthor. The company has published non-DC 
-Universe-related material, including Watchmen, V for Vendetta, Fables and many titles under their alternative imprint Vertigo.<br>
-
-The initials "DC" came from the company's popular series Detective Comics, which featured Batman's debut and subsequently became 
-part of the company's name.Originally in Manhattan at 432 Fourth Avenue, the DC Comics offices have been located at 480 and later 
-575 Lexington Avenue; 909 Third Avenue; 75 Rockefeller Plaza; 666 Fifth Avenue; and 1325 Avenue of the Americas. DC had its 
-headquarters at 1700 Broadway, Midtown Manhattan, New York City, however DC Entertainment relocated its headquarters from New 
-York to Burbank, California in April 2015.<br>
-
-Penguin Random House Publisher Services distributes DC Comics' books to the bookstore market,while Diamond Comic Distributors 
-supplied the comics shop direct market until June 2020, where Lunar Distribution and UCS Comic Distributors, who already 
-distributed to the direct market due to Diamond's distribution interruption as a result of the COVID-19 pandemic, replaced Diamond to 
-distribute to that market.DC Comics and its longtime major competitor Marvel Comics (acquired in 2009 by The Walt Disney 
-Company, WarnerMedia's main competitor) together shared approximately 70% of the American comic book market in 2017,though 
-this number may give a distorted view since graphic novels are excluded. With the sales of all books included, DC is the second biggest 
-publisher, after Viz Media, and Marvel is third.
-</p>
-<div style="height:35px;text-align:center;background-color:black;padding-top:70px;padding-bottom:70px;margin-top:40px;">
-<span class="heading"><a href="./index.html">Home</a></span>
-<span class="heading"><a href="./detail.html">About</a></span>
-<span class="heading"><a href="./info.html">Contact</a></span>
-</div>
-</body>
+  <head>
+    <title>Contact</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+      .heading {
+        font-size: 35px;
+        padding: 18px;
+        font-weight: 250;
+      }
+      body {
+        margin: 0;
+        background-color: black;
+      }
+      a {
+        text-decoration: none!important;
+        color: white;
+      }
+      .head-bar {
+        overflow: hidden;
+        position: fixed;
+        width: 100%;
+        top: 0;
+      }
+      a:hover {
+        color: grey;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="head-bar" style="height:35px;text-align:center;background-color:black;padding-top:25px;padding-bottom:25px;">
+      <span class="heading"><a href="./index.html">Home</a></span>
+      <span class="heading"><a href="./detail.html">About</a></span>
+      <span class="heading"><a href="./info.html">Contact</a></span>
+    </div>
+    <h1 style="text-align:center"><b>Contact Us</b></h1>
+    <div style="display:flex;justify-content:center;align-items:center;height:50vh;">
+      <form action="https://formspree.io/f/psidharthreddy11265@gmail.com" method="POST">
+        <label for="name">Name:</label><br>
+        <input type="text" id="name" name="name" required><br>
+        <label for="email">Email:</label><br>
+        <input type="email" id="email" name="email" required><br>
+        <label for="message">Message:</label><br>
+        <textarea id="message" name="message" required></textarea><br>
+        <input type="submit" value="Submit">
+      </form>
+    </div>
+  </body>
 </html>
