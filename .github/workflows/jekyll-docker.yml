@@ -22,5 +22,8 @@ jobs:
     - name: Install Jekyll
       run: gem install jekyll
       
+    - name: Install Jekyll Theme
+      run: gem install jekyll-theme-midnight
+
     - name: Build the site with Jekyll
       run: jekyll build
